@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { ProjectCollectionComponent } from './project-collection/project-collection.component';
+import { TaxGeoLocationComponent } from './tax-geo-location/tax-geo-location.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProjectCollectionComponent } from './project-collection/project-collect
     AboutComponent,
     NavBarComponent,
     MainContentComponent,
-    ProjectCollectionComponent
+    ProjectCollectionComponent,
+    TaxGeoLocationComponent
   ],
   imports: [
     BrowserModule,
