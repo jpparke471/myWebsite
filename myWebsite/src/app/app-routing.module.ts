@@ -9,6 +9,8 @@ const routes: Routes = [
   {path: '', component: ProjectCollectionComponent},
   {path: 'about', component: AboutComponent},
   {path: 'geoDemo', component: TaxGeoLocationComponent},
+  {path: 'coastalCanopy', component: TaxGeoLocationComponent},
+  {path: 'travelBlog', component: TaxGeoLocationComponent},
   {path: '**', redirectTo: ''}
 ];
 
